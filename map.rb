@@ -5,3 +5,7 @@ Class Symbol
 end
 
 #lets you use z = a.map( &:upcase ) to upcase all the items
+
+require 'to_lang'
+q = [ 1, 2, 3]
+puts q.map(&:to_en)
