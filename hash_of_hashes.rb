@@ -8,5 +8,5 @@ else
 				end
 }
 puts hash.keys.join(" ")
-hash.each{|k,v| p v}
+hash.each{|k,v| p k, v, v.length, " "}
 
