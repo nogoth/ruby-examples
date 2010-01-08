@@ -1,0 +1,3 @@
+#!/usr/bin/ruby 
+
+puts STDIN.readlines.sort{ rand(2) }.join
